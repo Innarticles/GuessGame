@@ -1,7 +1,7 @@
 public class GuessGame  {
 
 	private String cWord;
-	private String[] = {"Lagos", "Accra",  "Lodon", "Kumasi", "Jamiaca", "New Yourk"};
+	private String[] cities = {"Lagos", "Accra",  "London", "Kumasi", "Jamiaca", "New York"};
 
 	public GuessGame(String word)
 	{
