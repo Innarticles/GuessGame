@@ -1,5 +1,5 @@
 public class GuessGame  {
-	private int 
+	private int count;
 	private String cWord;
 	private String[] cities = {"Lagos", "Accra",  "London", "Kumasi", "Jamiaca", "New York"};
 
@@ -8,7 +8,7 @@ public class GuessGame  {
 		cWord = word;
 	}
 	
-	public boolean istheWord (String w)
+	public boolean isTheWord (String w)
 	{
 		return cWord.equals(w);
 	}

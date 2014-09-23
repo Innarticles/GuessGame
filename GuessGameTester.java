@@ -6,7 +6,7 @@ public class GuessGameTester
 	{
 		//get input from user
 		Scanner ggso = new Scanner(System.in);
-		String gword  = so.nextLine();
+		String gword  = ggso.nextLine();
 
 		GuessGame ggo = new GuessGame(gword);
 
