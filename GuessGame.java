@@ -1,5 +1,5 @@
 public class GuessGame  {
-
+	private int 
 	private String cWord;
 	private String[] = {"Lagos", "Accra",  "Lodon", "Kumasi", "Jamiaca", "New Yourk"};
 

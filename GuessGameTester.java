@@ -10,6 +10,8 @@ public class GuessGameTester
 
 		GuessGame ggo = new GuessGame(gword);
 
-		Boolean isw = isTheWord(gword);
+		Boolean isw = ggo.isTheWord(gword);
+
+		 System.out.println(isw);
 	}
 }
